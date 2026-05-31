@@ -1,0 +1,29 @@
+FINANCIAL FLOW SUMMARY - VERSION 2
+
+1. RECEIPT / CASH SALE
+- Save to sales + sale_items
+- Deduct stock
+- Record stock movement OUT
+- Post finance sale entry
+
+2. QUOTATION
+- No database save
+- No stock movement
+- No finance journal
+- PDF only
+
+3. INVOICE / CREDIT SALE
+- Save to invoices + invoice_items
+- Deduct stock
+- Record stock movement OUT
+- Record customer balance / receivable
+- Post finance receivable entry if finance helper exists
+
+4. EXPENSE
+- Save to expenses
+- Post expense finance entry
+
+5. REPORTING
+- Inventory reports read products + stock_movements
+- Financial statement pages read journal tables when present
+- If journal tables are missing, pages fall back to sales / invoices / expenses / products

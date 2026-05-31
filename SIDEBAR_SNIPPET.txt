@@ -1,0 +1,9 @@
+<!-- Add these links to your sidebar menu -->
+<li><a href="sales.php">Receipt Sales</a></li>
+<li><a href="invoices.php">Credit Invoices</a></li>
+<li><a href="expenses.php">Expenses</a></li>
+<li><a href="stock_movements.php">Stock Movements</a></li>
+<li><a href="inventory_reports.php">Inventory Reports</a></li>
+<li><a href="financial_statements.php">Financial Statements</a></li>
+<li><a href="income_statement.php">Income Statement</a></li>
+<li><a href="balance_sheet.php">Balance Sheet</a></li>

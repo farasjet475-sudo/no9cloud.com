@@ -1,0 +1,30 @@
+INSTALLATION STEPS - VERSION 2
+
+1. BACKUP
+- Make a full backup of your project folder.
+- Export your database.
+
+2. COPY FILES
+- Copy root PHP files to your project root.
+- Copy files inside includes/ to your includes/ folder.
+
+3. RUN SQL
+- Open phpMyAdmin or MySQL client.
+- Run: sql/inventory_sales_finance_upgrade_v2.sql
+
+4. ADD MENU LINKS
+- Use docs/SIDEBAR_SNIPPET.txt and add the links into your sidebar or header menu.
+
+5. VERIFY
+- Test receipt sale
+- Test expense
+- Test credit invoice
+- Check stock_movements
+- Check inventory reports
+- Check financial statement pages
+
+NOTES
+- Receipt sale saves into sales + sale_items and deducts stock.
+- Quotation stays PDF/session only and should not touch stock.
+- Credit invoice saves into invoices + invoice_items and deducts stock.
+- Financial pages will read accounting data when available, or fall back to sales/expenses data.

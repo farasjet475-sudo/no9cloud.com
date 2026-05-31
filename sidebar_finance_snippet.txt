@@ -1,0 +1,8 @@
+<!-- Add inside includes/sidebar.php -->
+<li><a href="finance_dashboard.php">Finance Dashboard</a></li>
+<li><a href="income_statement.php">Income Statement</a></li>
+<li><a href="balance_sheet.php">Balance Sheet</a></li>
+<li><a href="cash_flow.php">Cash Flow</a></li>
+<li><a href="owner_equity.php">Owner Equity</a></li>
+<li><a href="chart_of_accounts.php">Chart of Accounts</a></li>
+<li><a href="journal_entries.php">Journal Entries</a></li>
